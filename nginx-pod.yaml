@@ -5,4 +5,4 @@ metadata:
 spec:
  containers:
  - name: www
- image: nginx:1.12.2
+   image: nginx:1.12.2
