@@ -8,6 +8,6 @@ spec:
      name: wordpress
      env:
      - name: WORDPRESS_DB_PASSWORD
-     value: mysqlpwd
+       value: mysqlpwd
      - name: WORDPRESS_DB_HOST
-     value: 127.0.0.1
+       value: 127.0.0.1
