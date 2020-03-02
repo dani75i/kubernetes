@@ -5,9 +5,9 @@ metadata:
 spec:
  containers:
   - image: wordpress:4.9-apache
-     name: wordpress
-     env:
-     - name: WORDPRESS_DB_PASSWORD
-       value: mysqlpwd
-     - name: WORDPRESS_DB_HOST
-       value: 127.0.0.1
+    name: wordpress
+    env:
+    - name: WORDPRESS_DB_PASSWORD
+      value: mysqlpwd
+    - name: WORDPRESS_DB_HOST
+      value: 127.0.0.1
