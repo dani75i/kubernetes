@@ -8,14 +8,14 @@ spec:
      name: wordpress
      env:
      - name: WORDPRESS_DB_PASSWORD
-     value: mysqlpwd
+       value: mysqlpwd
      - name: WORDPRESS_DB_HOST
-     value: 127.0.0.1
+       value: 127.0.0.1
   - image: mysql:5.7
      name: mysql
      env:
      - name: MYSQL_ROOT_PASSWORD
-     value: mysqlpwd
+       value: mysqlpwd
      volumeMounts:
      - name: data
        mountPath: /var/lib/mysql
