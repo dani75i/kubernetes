@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadate:
+  name: vote
+  labels:
+    app: vote
+spec:
+  containers:
+    - name: vote
+      image: instavote/vote
+
