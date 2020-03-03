@@ -6,4 +6,7 @@ spec:
  containers:
  - name: www
    image: alpine
+   command:
+     - "sleep"
+     - "10000"
 
