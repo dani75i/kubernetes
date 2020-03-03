@@ -8,6 +8,4 @@ spec:
   containers:
     - name: vote
       image: instavote/vote
-      ports:
-      - containerPort: 80
 
